@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // Your web app's Firebase configuration
+      //add here
+      // Initialize Firebase
+     // <script type="module">
+  // Import the functions you need from the SDKs you need
+  //import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.3/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyCN_XdGThHc_eTrYkqjxXJi6kJwB7doD5E",
+    authDomain: "baloon-a9bbf.firebaseapp.com",
+    databaseURL: "https://baloon-a9bbf-default-rtdb.firebaseio.com",
+    projectId: "baloon-a9bbf",
+    storageBucket: "baloon-a9bbf.appspot.com",
+    messagingSenderId: "440866304517",
+    appId: "1:440866304517:web:0393d0ae81c4fe2a29226c"
+  };
+
+
+  // Initialize Firebase
+  //const app = initializeApp(firebaseConfig);
+
+  
+
+
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
